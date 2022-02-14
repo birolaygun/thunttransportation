@@ -1,0 +1,120 @@
+
+@media only screen and (max-width: 991px) {
+	.wmhw-control-wrap.icon-warp {
+	    width: 100%;
+	    border-top-left-radius: 40px;
+	    border-bottom-left-radius: 0;
+	    border-top-right-radius: 40px;
+	}
+	.wmhw-control-wrap.input-wrap,
+	.wmhw-str-add-wrap,
+	.wmhw-str-city-wrap,
+	.wmhw-control-wrap.next-wrap {
+		width: 100%;
+		height: auto;
+	}
+	.wmhw-form-wrapper .wmhw-step-1-wrap .wmhw-control-wrap.input-wrap {
+		height: auto;
+		padding: 0;
+	}
+	.wmhw-str-add-wrap {
+		border-right: none;
+	}
+	.wmhw-str-city-wrap {
+		margin-left: 0;
+	}
+	.wmhw-control-wrap.input-wrap input {
+		padding: 0 3%;
+	}
+	.wmhw-str-add-wrap input {
+	    border-top: 1px solid #c9c9c9;
+	    border-bottom: 1px solid #c9c9c9;
+	}
+	.wmhw-str-city-wrap input {
+		border-bottom: 1px solid #c9c9c9;
+	}
+	.wmhw-control-wrap.next-wrap div {
+	    border-top-right-radius: 0;
+	    border-bottom-right-radius: 40px;
+	    border-bottom-left-radius: 40px;
+	}
+	.step-wrap {
+	    width: 100%;
+	}
+	.wmhw-step-arrow {
+		width: 100%
+	}
+	.wmhw-step-arrow .arrow-line {
+		display: none;
+	}
+	.wmhw-step-arrow .arrow {
+		width: 34px;
+		right: 0;
+		left: calc(50% - 16px);
+		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+	}
+	.wmhw-map-wrap,
+	.wmhw-cf-wrap,
+	.wmhw-cf-control-wrap,
+	.wmhw-cf-control-wrap.wmhw-cf-submit input {
+		width: 100%;
+	}
+	.wmhw-form-wrapper #wmhw-map {
+		display: block;
+		margin: auto auto 30px;
+		max-width: 100%;
+	}
+	.wmhw-cf-title {
+		text-align: center;
+	}
+	.wmhw-form-wrapper .estimates-preview-holder table {
+		max-width: 100%;
+		min-width: inherit;
+    }
+        .wmhw-form-wrapper .estimates-preview-holder table tr:first-child {
+            display: none;
+        }
+        .wmhw-form-wrapper .estimates-preview-holder table td {
+        	display: block;
+        	text-align: center;
+        	margin-bottom: 5px;
+        }
+        .wmhw-form-wrapper .estimates-preview-holder table td::before {
+		    display: block;
+		    font-size: 14px;
+		    font-weight: 700;
+		}
+        .wmhw-form-wrapper .estimates-preview-holder table td:first-child::before {
+            content: 'Address';
+        }
+        .wmhw-form-wrapper .estimates-preview-holder table td:nth-child(2)::before {
+            content: 'Low Estimate';
+        }
+        .wmhw-form-wrapper .estimates-preview-holder table td:nth-child(3)::before {
+            content: 'High Estimate';
+        }
+        .wmhw-form-wrapper .estimates-preview-holder table td:last-child::before {
+            content: 'Median Price';
+        }
+	.wmhw-thankyou-wrapper .wmhw-agent-photo{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.wmhw-thankyou-wrapper .wmhw-text-content{
+		width: 100%;
+		margin: 0;
+	}
+	.wmhw-thankyou-wrapper .wmhw-text-content .whw-anotation {
+	   font-size: 22px;
+	}
+	.wmhw-thankyou-wrapper .wmhw-text-content .whw-anotation strong{
+		font-size: 29px;
+	}
+	.wmw-buttons a{
+		width: 100%;
+      margin: 10px 0;
+	}
+}

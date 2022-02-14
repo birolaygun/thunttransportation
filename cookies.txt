@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.idxhome.com	TRUE	/	FALSE	1999999999	__cf_bm	6mwAKP4.BSzKFSYu6dfPT.SQThmF2s.GVuTobXSAVIE-1644783653-0-AXSL5wZTtjpWpy49VwAxvM8XAubW1VoBJ2H07dZIfOr1zPfGL4fspyBLp3xciYb+Sfc8YBfwC4UeTwj3z3nJyrA=
+www.idxhome.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.lnyre.com	TRUE	/	FALSE	1999999999	ihf_last_search_url	https%3A%2F%2Fwww.lnyre.com%2Flisting-report%2FWestchester%2F1053077%2F%3Fpg%3D12%26sortBy%3Dpd
+www.lnyre.com	TRUE	/	FALSE	1999999999	ihf_lead_capture_user_id	7880035300
+www.lnyre.com	TRUE	/	FALSE	1999999999	ihf_session_id	1b6a41bd-0d4f-4036-b160-65fe51903b54
+

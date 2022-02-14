@@ -1,0 +1,108 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 13 Feb 2022 22:37:23 at https://www.lnyre.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.lnyre.com/ -O1 "D:\My Web Sites\thunttransportation" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:38:16	Error: 	"Forbidden" (403) at link https://www.lnyre.com/xmlrpc.php (from https://www.lnyre.com/)
+22:40:33	Warning: 	Moved Permanently for https://www.lnyre.com/buyers/
+22:40:33	Warning: 	File has moved from https://www.lnyre.com/buyers/ to https://www.lnyre.com/buyers/deciding-to-buy/
+22:40:55	Warning: 	Moved Permanently for https://www.lnyre.com/sellers/
+22:40:55	Warning: 	File has moved from https://www.lnyre.com/sellers/ to https://www.lnyre.com/sellers/decide-to-sell/
+22:41:12	Error: 	"Not Found" (404) at link https://www.lnyre.com/Safari/ (from https://www.lnyre.com/)
+22:41:12	Error: 	"Not Found" (404) at link https://www.lnyre.com/Chrome/ (from https://www.lnyre.com/)
+22:42:09	Error: 	"Not Found" (404) at link https://www.lnyre.com/page/2/Safari/ (from https://www.lnyre.com/page/2/)
+22:42:09	Error: 	"Not Found" (404) at link https://www.lnyre.com/page/2/Chrome/ (from https://www.lnyre.com/page/2/)
+22:42:41	Error: 	"Not Found" (404) at link https://www.lnyre.com/wp-content/themes/lnyre.com/images/submenu-fixer.png (from https://www.lnyre.com/wp-content/themes/lnyre.com/process-style.php?ver=5.3)
+22:43:17	Error: 	"Not Found" (404) at link https://www.lnyre.com/POST (from https://connect.facebook.net/en_US/fbevents.js)
+22:43:28	Warning: 	Moved Permanently for https://www.lnyre.com/?p=17
+22:43:28	Warning: 	File has moved from https://www.lnyre.com/?p=17 to https://www.lnyre.com/about-us/
+22:43:40	Warning: 	Moved Permanently for https://www.lnyre.com/?p=18
+22:43:40	Warning: 	File has moved from https://www.lnyre.com/?p=18 to https://www.lnyre.com/featured-listings/
+22:43:43	Warning: 	Moved Permanently for https://www.lnyre.com/?p=125
+22:43:43	Warning: 	File has moved from https://www.lnyre.com/?p=125 to https://www.lnyre.com/brooklyn/
+22:44:11	Warning: 	Moved Permanently for https://www.lnyre.com/?p=122
+22:44:11	Warning: 	File has moved from https://www.lnyre.com/?p=122 to https://www.lnyre.com/nassau-county/
+22:44:50	Warning: 	Moved Permanently for https://www.lnyre.com/?p=119
+22:44:50	Warning: 	File has moved from https://www.lnyre.com/?p=119 to https://www.lnyre.com/queens/
+22:45:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=116
+22:45:33	Warning: 	File has moved from https://www.lnyre.com/?p=116 to https://www.lnyre.com/suffolk-county/
+22:46:14	Warning: 	Moved Permanently for https://www.lnyre.com/?p=113
+22:46:14	Warning: 	File has moved from https://www.lnyre.com/?p=113 to https://www.lnyre.com/the-bronx/
+22:46:57	Warning: 	Moved Permanently for https://www.lnyre.com/?p=110
+22:46:57	Warning: 	File has moved from https://www.lnyre.com/?p=110 to https://www.lnyre.com/westchester/
+22:47:42	Warning: 	Moved Permanently for https://www.lnyre.com/?p=72
+22:47:42	Warning: 	File has moved from https://www.lnyre.com/?p=72 to https://www.lnyre.com/home-buying-process/
+22:47:44	Warning: 	Moved Permanently for https://www.lnyre.com/?p=73
+22:47:44	Warning: 	File has moved from https://www.lnyre.com/?p=73 to https://www.lnyre.com/who-pays-for-what/
+22:47:47	Warning: 	Moved Permanently for https://www.lnyre.com/?p=74
+22:47:47	Warning: 	File has moved from https://www.lnyre.com/?p=74 to https://www.lnyre.com/glossary-of-terms/
+22:47:52	Warning: 	Moved Permanently for https://www.lnyre.com/?p=219
+22:47:52	Warning: 	File has moved from https://www.lnyre.com/?p=219 to https://www.lnyre.com/get-a-free-home-valuation/
+22:47:52	Warning: 	Moved Permanently for https://www.lnyre.com/?p=13
+22:47:52	Warning: 	File has moved from https://www.lnyre.com/?p=13 to https://www.lnyre.com/contact-us/
+22:47:52	Error: 	"Not Found" (404) at link https://www.lnyre.com/wp-json/oembed/1.0/embed?url (from https://www.lnyre.com/homes-for-sale-search-advanced/)
+22:47:52	Error: 	"Not Found" (404) at link https://www.lnyre.com/wp-json/oembed/1.0/embed?url&format=xml (from https://www.lnyre.com/homes-for-sale-search-advanced/)
+22:47:52	Warning: 	Moved Permanently for https://www.lnyre.com/?p=14
+22:47:52	Warning: 	File has moved from https://www.lnyre.com/?p=14 to https://www.lnyre.com/sitemap/
+22:48:02	Warning: 	Moved Permanently for https://www.lnyre.com/financing-options/
+22:48:02	Warning: 	File has moved from https://www.lnyre.com/financing-options/ to https://www.lnyre.com/financing-options/financing-options/
+22:48:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=62
+22:48:32	Warning: 	File has moved from https://www.lnyre.com/?p=62 to https://www.lnyre.com/carlton-c/
+22:48:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=95
+22:48:33	Warning: 	File has moved from https://www.lnyre.com/?p=95 to https://www.lnyre.com/julian-c/
+22:48:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=93
+22:48:33	Warning: 	File has moved from https://www.lnyre.com/?p=93 to https://www.lnyre.com/janet-d/
+22:48:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=68
+22:48:33	Warning: 	File has moved from https://www.lnyre.com/?p=68 to https://www.lnyre.com/jason-w/
+22:48:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=66
+22:48:33	Warning: 	File has moved from https://www.lnyre.com/?p=66 to https://www.lnyre.com/d-duncan/
+22:48:33	Warning: 	Moved Permanently for https://www.lnyre.com/?p=64
+22:48:33	Warning: 	File has moved from https://www.lnyre.com/?p=64 to https://www.lnyre.com/viola-r/
+22:52:16	Warning: 	Moved Permanently for https://www.lnyre.com/?p=23
+22:52:16	Warning: 	File has moved from https://www.lnyre.com/?p=23 to https://www.lnyre.com/buyers/deciding-to-buy/
+22:52:17	Warning: 	Moved Permanently for https://www.lnyre.com/?p=30
+22:52:17	Warning: 	File has moved from https://www.lnyre.com/?p=30 to https://www.lnyre.com/sellers/decide-to-sell/
+22:52:19	Warning: 	Moved Permanently for https://www.lnyre.com/?p=25
+22:52:19	Warning: 	File has moved from https://www.lnyre.com/?p=25 to https://www.lnyre.com/buyers/choose-a-real-estate-agent/
+22:52:21	Warning: 	Moved Permanently for https://www.lnyre.com/?p=27
+22:52:21	Warning: 	File has moved from https://www.lnyre.com/?p=27 to https://www.lnyre.com/buyers/escrow-inspections-and-appraisals/
+22:52:23	Warning: 	Moved Permanently for https://www.lnyre.com/?p=28
+22:52:23	Warning: 	File has moved from https://www.lnyre.com/?p=28 to https://www.lnyre.com/buyers/moving-in/
+22:52:25	Warning: 	Moved Permanently for https://www.lnyre.com/?p=24
+22:52:25	Warning: 	File has moved from https://www.lnyre.com/?p=24 to https://www.lnyre.com/buyers/preparing-to-buy/
+22:52:27	Warning: 	Moved Permanently for https://www.lnyre.com/?p=26
+22:52:27	Warning: 	File has moved from https://www.lnyre.com/?p=26 to https://www.lnyre.com/buyers/time-to-go-shopping/
+22:52:29	Warning: 	Moved Permanently for https://www.lnyre.com/?p=41
+22:52:29	Warning: 	File has moved from https://www.lnyre.com/?p=41 to https://www.lnyre.com/financing-options/applications-processing/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=37
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=37 to https://www.lnyre.com/financing-options/financing-options/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=42
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=42 to https://www.lnyre.com/financing-options/funding/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=40
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=40 to https://www.lnyre.com/financing-options/get-pre-approved/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=39
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=39 to https://www.lnyre.com/financing-options/know-the-numbers/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=38
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=38 to https://www.lnyre.com/financing-options/shop-for-a-loan/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=11
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=11 to https://www.lnyre.com/help-me-relocate/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=33
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=33 to https://www.lnyre.com/sellers/accepting-an-offer/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=35
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=35 to https://www.lnyre.com/sellers/close-of-escrow/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=34
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=34 to https://www.lnyre.com/sellers/escrow-inspections-and-appraisals/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=32
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=32 to https://www.lnyre.com/sellers/prepare-to-sell/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=31
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=31 to https://www.lnyre.com/sellers/select-an-agent-and-price/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=9
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=9 to https://www.lnyre.com/what-is-my-home-worth-and-desired-home-home-specifications/
+22:52:32	Warning: 	Moved Permanently for https://www.lnyre.com/?p=7
+22:52:32	Warning: 	File has moved from https://www.lnyre.com/?p=7 to https://www.lnyre.com/what-is-my-home-worth/
+
+HTTrack Website Copier/3.49-2 mirror complete in 52 minutes 21 seconds : 3951 links scanned, 3895 files written (659461839 bytes overall) [473529637 bytes received at 150757 bytes/sec], 234766424 bytes transferred using HTTP compression in 2070 files, ratio 19%, 5.0 requests per connection
+(9 errors, 88 warnings, 0 messages)

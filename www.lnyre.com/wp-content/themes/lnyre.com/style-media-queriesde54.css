@@ -1,0 +1,746 @@
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+
+ /* for mac book */
+
+ @media only screen and (max-width: 1440px ) {
+	/* hp featured listings */
+	.hp-fl .g-sec-wrapper {
+		max-width: 1000px;
+	}
+	/* end hp featured listings */
+
+	/* hp welcome */
+	.hp-wc .wc-content {
+		margin-right: calc((1140px - 100vw) / 2);
+	}
+	/* end hp welcome */
+ }
+
+ @media only screen and (max-width: 1366px) {
+
+	/* main header */
+	header.hdr-main #nav > li {
+		margin-right: 15px;
+	}
+
+	header.hdr-main #nav li a {
+		font-size: 12px;
+	}
+
+	header.hdr-main.scrolled #nav > li {
+		margin-right: 9px;
+	}
+
+	header.hdr-main.scrolled .hdr-nav {
+		padding-right: 2.5%;
+	}
+
+	header.hdr-main .hdr-lang em {
+		margin: 0 5px;
+	}
+
+	header.hdr-main .hdr-phone, 
+	header.hdr-main .hdr-lang,
+	header.hdr-main .hdr-lang-placeholder {
+		font-size: 11px;
+	}
+
+	header.hdr-main.scrolled .hdr-phone {
+		padding-right: 30px;
+	}
+
+	header.hdr-main .hdr-phone::after {
+		right: 14px;
+	}
+
+	header.hdr-main.scrolled .hdr-nav {
+		width: calc(100% - 234px);
+	}
+
+	header.hdr-main .hdr-nav {
+		width: calc(100% - 207px);
+	}
+	/* end main header */
+
+	/* hp featured communities */
+	.hp-fc .g-sec-wrapper {
+		max-width: 1000px;
+	}
+
+	.hp-fc .fc-item .fc-hover h3 {
+		font-size: 22px;
+	}
+
+	.hp-fc .fc-item .fc-hover-inner {
+		padding: 15px 0;
+	}
+	/* end hp featured communities */
+
+} 
+
+@media only screen and (max-width: 1280px) {
+
+	/* main header */
+	header.hdr-main .hdr-left {
+		width: 170px;
+	}
+
+	header.hdr-main .hdr-right {
+		width: calc(100% - 170px);
+	}
+
+	header.hdr-main .hdr-wrapper {
+		padding: 0 30px;
+	}
+
+	header.hdr-main #nav > li.menu-item-has-children::after {
+		top: 30px;
+	}
+	/* end main header */
+
+	/* hp banner */
+	.hp-banner .banner-cntct {
+		top: 158px;
+	}
+	/* end hp banner */
+
+	/* hp cta */
+	.hp-cta .cta-item h3 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.hp-cta .cta-item {
+		height: 345px;
+	}
+	/* end hp cta */
+
+} 
+ 
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */ 
+@media only screen and (max-width: 1199px) {
+
+	/* main header */
+	header.hdr-main .hdr-left {
+		width: 140px;
+	}
+
+	header.hdr-main .hdr-right {
+		width: calc(100% - 140px);
+	}
+
+	header.hdr-main .hdr-wrapper {
+		padding: 0 15px;
+	}
+
+	header.hdr-main .hdr-phone, header.hdr-main .hdr-lang,
+	header.hdr-main .hdr-lang-placeholder {
+		font-size: 10px;
+	}
+
+	header.hdr-main.scrolled .hdr-phone {
+		padding-right: 20px;
+	}
+
+	header.hdr-main .hdr-phone::after {
+		right: 10px;
+	}
+
+	header.hdr-main #nav li a {
+		font-size: 10px;
+	}
+
+	header.hdr-main.scrolled .hdr-nav {
+		width: calc(100% - 215px);
+		padding-right: 10px;
+	}
+
+	header.hdr-main .hdr-nav {
+		right: -120px;
+	}
+
+	header.hdr-main .hdr-nav {
+		width: calc(100% - 200px);
+	}
+
+	header.hdr-main #nav > li {
+		margin-right: 10px;
+	}
+
+	header.hdr-main #nav > li.menu-item-has-children::after {
+		top: 24px;
+		height: 20px;
+	}
+	/* end main header */
+
+	/* hp banner */
+	.hp-banner .banner-cntct {
+		top: 147px;
+	}
+	/* end hp banner */
+	
+	.ss-wrapper .cycloneslider-template-video .cycloneslider-slides,
+	.ss-wrapper .cycloneslider-template-video video{
+		min-height: 100vh;
+	}
+
+	/* hp quick search */
+	.hp-qs .qs-title h2 {
+		font-size: 17px;
+	}
+	/* end hp quick search */
+
+	/* hp featured listings */
+	.hp-fl .g-sec-wrapper {
+		max-width: 795px;
+	}
+	/* end hp featured listings */
+
+	/* hp cta */
+	.hp-cta .cta-item h3 {
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.hp-cta .cta-item p {
+		font-size: 11px;
+		line-height: 22px;
+		max-width: 274px;
+	}
+
+	.hp-cta .cta-item {
+		height: 315px;
+	}
+
+	.hp-cta .cta-item span {
+		font-size: 11px;
+	}
+
+	.hp-cta .cta-item:hover span {
+		bottom: -45px;
+	}
+	/* end hp cta */
+
+	/* hp featured communities */
+	.hp-fc .fc-item {
+		padding: 0 25px;
+	}
+
+	.hp-fc .g-sec-wrapper {
+		max-width: 795px;
+	}
+	/* end hp featured communities */
+
+	/* hp welcome */
+	.hp-wc .wc-content {
+		margin-right: calc((939px - 100vw) / 2);
+		padding: 55px 0 150px 55px;
+	}
+
+	.hp-wc .wc-content p {
+		font-size: 14px;
+		line-height: 30px;
+		max-width: 500px;
+	} 
+	
+	/* end hp welcome */
+
+	/* footer */
+	footer.ftr-main .ftr-nav li a {
+		font-size: 13px;
+	}
+
+	footer.ftr-main .ftr-nav li {
+		margin-right: 16px;
+	}
+
+	footer.ftr-main button.scroll-up {
+		top: 1px;
+	}
+	/* end footer */
+
+	.ip-qs .bootstrap-select.btn-group .dropdown-menu {
+		left: unset;
+		right: 0;
+	}
+	.ip-qs ul.dropdown-menu.inner {
+		max-height: 200px !important;
+	}
+
+} 
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
+@media only screen and (max-width: 991px) {
+	
+	/* The following are used on inner pages. Please edit carefully. */
+
+	.inner {
+	    width: 100%;
+	}
+	#content-sidebar, #content-full {
+	    width: 100%;
+	}	
+	.outer{
+		width: 100%;
+		min-width: 100%;
+	}
+	#content-sidebar #content{
+		width: 100%;
+	}
+	
+	.ss-wrapper .cycloneslider-template-video .cycloneslider-slides,
+	.ss-wrapper .cycloneslider-template-video video{
+		min-height: auto;
+	}
+	
+	.home .cta-desc:hover .wmhw-form-wrapper {
+		max-height: 1185px;
+	}
+
+	/* main header */
+	header.hdr-main {
+		position: relative;
+		margin-top: 52px;
+		padding: 30px 0;
+	}
+
+	header.hdr-main .hdr-right {
+		display: none;
+	} 
+
+	header.hdr-main .hdr-left {
+		display: block;
+		width: 100%;
+	}
+
+	header.hdr-main .hdr-left img {
+		margin: 0 auto;
+	}
+	/* end main header */
+
+	/* hp banner */
+	.hp-banner .banner-cntct {
+		top: 66px;
+	}
+
+	.hp-banner .ss-wrapper > canvas {
+		display: none;
+	}
+
+	.hp-banner .cycloneslider {
+		position: relative;
+		height: auto !important;
+	}
+
+	.hp-banner .cycloneslider-slides {
+		height: 100% !important;
+	}
+	/* end hp banner */
+
+	/* hp quick search */
+	.hp-qs{
+		/* margin-left: 14%; */
+		margin-left: 0%;
+	}
+	.hp-qs .qs-wrapper > .qs-form{
+		width: 100%;
+	}
+	.hp-qs .qs-col {
+		display: block;
+		width: 100%;
+		
+	}
+
+	.hp-qs .qs-title h2 {
+		text-align: center;
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.hp-qs .qs-form-group {
+		display: block;
+		width: 100% !important;
+		margin-bottom: 7px !important;
+	}
+	
+
+	.hp-qs .qs-form-group:nth-child(2) {
+		margin: 0;
+	}
+
+	.hp-qs .qs-form-group::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+
+	.hp-qs .qs-form-group .qs-field.qs-lg {
+		width: 100%;
+	}
+
+	.hp-qs .qs-form-group .qs-field {
+		display: inline-block;
+		margin-bottom: 7px;
+	}
+
+	.hp-qs .qs-form-group .qs-field.qs-sm {
+		width: calc(50% - 3px);
+	}
+
+	.hp-qs .qs-form-group .qs-field.qs-right {
+		float: right;
+	}
+
+	.hp-qs .qs-form-group .qs-field {
+		margin-bottom: 0;
+	}
+
+	.hp-qs .qs-form-group .qs-field.qs-lg:first-child {
+		margin-bottom: 7px;
+	}
+
+	.hp-qs .qs-form-group.qs-button-wrap {
+		margin-left: 0;
+	}
+
+	.hp-qs .qs-wrapper {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	/* end hp quick search */
+
+	/* hp featured listings */
+	.hp-fl .fl-arr {
+		position: relative;
+		left: 0 !important;
+		right: 0 !important;
+		top: 0 !important;
+		display: inline-block !important;
+		margin: 0 35px;
+	}
+
+	.hp-fl .g-sec-wrapper {
+		text-align: center;
+		max-width: 650px;
+	}
+
+	.hp-fl .fl-slider {
+		margin: 0 0 50px;
+	}
+
+	/* end hp featured listings */
+
+	/* hp cta */
+	.hp-cta .cta-item {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.hp-cta .cta-item h3 {
+		line-height: 46px;
+		font-size: 42px;
+	}
+
+	.hp-cta .cta-item p {
+		font-size: 13px;
+		line-height: 26px;
+	}
+
+	.hp-cta .cta-item span {
+		font-size: 13px;
+	}
+
+	/*.hp-cta .cta-wrapper::before {
+		background-attachment: scroll;
+	}*/
+
+	.hp-cta .cta-bg-hover-wrap .cta-bg-hover canvas {
+		background-attachment: scroll;
+	}
+
+	.hp-cta .cta-item:nth-child(even) {
+		border-left: 0;
+		border-right: 0;
+		border-top: 1px solid rgba(255, 255, 255, .10);
+		border-bottom: 1px solid rgba(255, 255, 255, .10);
+	}
+
+	.hp-cta .cta-button-wrap {
+		padding: 38px 45px;
+	}
+
+	.hp-cta .cta-item {
+		height: 370px;
+	}
+	/* end hp cta */
+
+	/* hp featured communities */
+	.hp-fc .fc-item {
+		width: 50%;
+		padding: 0 35px;
+	}
+
+	.hp-fc .g-sec-wrapper {
+		max-width: 650px;
+	}
+	/* end hp featured communities */
+
+	/* hp welcome */
+	.hp-wc {
+		padding: 50px 0;
+		background-image: url('https://images.unsplash.com/photo-1616432043562-3671ea2e5242?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJ1Y2tzfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+	}
+
+	.hp-wc .wc-content {
+		margin: 0;
+	}
+
+	.hp-wc .wc-content {
+		text-align: center;
+		padding: 100px 50px 70px;
+	}
+
+	.hp-wc .wc-content p {
+		margin: 0 auto;
+		max-width: unset;
+	}
+	/* end hp welcome */
+
+	/* footer */
+	footer.ftr-main .ftr-nav li a {
+		font-size: 12px;
+	}
+
+	footer.ftr-main .ftr-nav li {
+		margin-right: 8px;
+	}
+
+	footer.ftr-main button.scroll-up {
+		top: -45px;
+		right: unset;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	footer.ftr-main button.scroll-up span::before {
+		height: 50px;
+	}
+
+	footer.ftr-main .ftr-copyright p {
+		display: block;
+		text-align: center;
+		line-height: 20px;
+	}
+
+	footer.ftr-main .ftr-nav {
+		margin-top: 20px;
+	}
+	
+	footer.ftr-main .ftr-copyright .ftr-brokerage {
+		float: none;
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+	}
+	/* end footer */
+
+	body.page-id-219 {
+	    overflow: visible;
+	}
+
+	.page-id-219 .wmhw-form-wrapper {
+		position: relative;
+		height: auto;
+	}
+
+		.page-id-219 .wmhw-form-wrapper .container {
+			position: relative;
+		    top: 0;
+		    transform: translateY(0);
+		    padding: 0 15px;
+		}
+
+	.page-id-219 .addtoany_content {
+		position: relative;
+		bottom: 0;
+	}
+
+.hp-banner .banner-cntct {
+    display: none;
+}
+
+.home .cta-desc:hover .wmhw-form-wrapper {
+    max-height: 100%;
+}
+	
+} 
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
+@media only screen and (max-width: 767px) {
+    .ip-banner .container{
+        width: 100%;
+	}
+	
+	/* hp banner */
+	.hp-banner .banner-cntct {
+		top: 0;
+		position: relative;
+		width: 100%;
+		transform: rotate(0);
+		left: 0;
+		background: #636363;
+		display: none;
+	}
+	/* end hp banner */
+
+	/* hp featured listings */
+	.hp-fl .g-sec-wrapper {
+		max-width: 450px;
+	}
+
+	.hp-fl .fl-item {
+		padding: 0;
+	}
+	/* end hp featured listings */
+
+	/* hp cta */
+	.hp-cta .cta-item h3 {
+		line-height: 35px;
+		font-size: 32px;
+	}
+	/* end hp cta */
+
+	/* hp featured communities */
+	.hp-fc .fc-item {
+		width: 100%;
+		padding: 0;
+	}
+
+	.hp-fc .fc-content {
+		margin: 0 auto;
+		max-width: 400px;
+	}
+	/* end hp featured communities */
+
+	/* hp welcome */
+	.hp-wc h1 {
+		font-size: 25px;
+		letter-spacing: 1px;
+	}
+	/* end hp welcome */
+
+	/* footer */
+	footer.ftr-main .au .au-sm:nth-child(3) {
+		margin: 0;
+	}
+
+	footer.ftr-main .au .au-sm {
+		width: 100%;
+	}
+
+	footer.ftr-main .ftr-nav li {
+		margin-bottom: 5px;
+	}
+	/* end footer */
+
+	.home .cta-desc:hover .wmhw-form-wrapper {
+		max-height: 100%;
+	}
+
+	div#ui-datepicker-div {
+	    left: 50% !important;
+	    transform: translateX(-50%);
+	}
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
+@media only screen and (max-width: 480px) {
+
+	/* hp banner */
+	.hp-banner .banner-cntct {
+		height: 95px;
+	}
+
+	.hp-banner .banner-scroll-down {
+		display: none;
+	}
+	/* end hp banner */
+
+	/* hp featured listings */
+	.hp-fl {
+		padding: 40px 0;
+	}
+
+	.hp-fl .g-sec-wrapper {
+		padding: 0 15px;
+	}
+
+	.hp-fl .fl-va-btn {
+		width: 100%;
+		max-width: 280px;
+	}
+	/* end hp featured listings */
+
+	/* hp cta */
+	.hp-cta .cta-button-wrap {
+		padding: 25px 15px;
+	}
+
+	.hp-cta .cta-item h3 {
+		line-height: 27px;
+		font-size: 25px;
+	}
+
+	.hp-cta .cta-item p {
+		font-size: 12px;
+		line-height: 21px;
+	}
+	/* end hp cta */
+
+	.hp-fc .fc-content {
+		padding: 0 15px;
+	}
+
+	/* hp welcome */
+	.hp-wc .wc-content {
+		padding: 50px 15px 70px;
+	}
+
+	.hp-wc .wc-content p {
+		font-size: 12px;
+		line-height: 22px;
+	}	
+	/* end hp welcome */
+
+	/* footer */
+	footer.ftr-main .ftr-bottom-wrapper {
+		padding: 0;
+	}
+	/* end footer */
+
+	.hp-cta .cta-item-bottom h3 {
+		line-height: 46px;
+		line-height: 27px;
+		font-size: 25px;
+	}
+
+	.hp-cta .wmhw-form-wrapper .wmhw-cf-sell select {
+    font-size: 12px;
+}
+
+	.home .wmhw-title, 
+	.home .wmhw-subtitle, 
+	.home .wmhw-step-num, 
+	.home .wmhw-step-desc {
+		font-size: 22px;
+	}
+
+
+
+}
+ 

@@ -1,0 +1,351 @@
+/* Defaults */
+.aios-roadmaps {
+	position: relative;
+	font-size: 0; /* Remove extra spacing */
+	box-sizing:border-box;
+	text-align:center;
+	transition: all .25s ease-in-out;
+	padding:20px 0;
+	text-rendering: auto;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+
+}
+
+	.aios-roadmaps a.aios-roadmap-link {
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		text-decoration: none;
+		color: #464646;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 14px;
+		box-sizing:border-box;
+
+		padding: 12px 12px;
+    	width:100px;
+		height:100px;
+    	border-radius: 50%;
+    	margin: 6px 5px 6px 6px;
+
+    	border: 1px solid;
+    	
+		transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+	}
+
+		/*.aios-roadmaps a.aios-roadmap-link:first-child {
+			margin: 6px 0;
+		}*/
+
+		.aios-roadmaps a.aios-roadmap-link span.aios-roadmap-icon {
+			width: 41px;
+			height: 41px;
+			display: inline-block;
+			margin-bottom: 8px;
+			transition: all .25s ease-in-out;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			font-size: 32px;
+			padding: 7px 0;
+		}
+
+		.aios-roadmaps a.aios-roadmap-link span.aios-roadmap-name {
+			display: block;
+			padding: 8px 0;
+			text-transform: uppercase;
+			margin-top: -11px;
+			font-size: 8px;
+			line-height: 9px;
+		}
+
+		.aios-roadmaps a.aios-roadmap-link.single-line span.aios-roadmap-name {
+			padding: 15px 0;
+		}
+
+		.aios-roadmaps a.aios-roadmap-link.three-line span.aios-roadmap-name {
+			padding: 0;
+		}
+	
+/* Color Theme */
+.aios-roadmaps.black a.aios-roadmap-link {
+	color: #464646;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link {
+	color: #fff;
+}
+
+/* Active Link */
+.aios-roadmaps.black a.aios-roadmap-link.active-link,
+.aios-roadmaps.black a.aios-roadmap-link:hover {
+    color: #969393;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link.active-link,
+.aios-roadmaps.white a.aios-roadmap-link:hover {
+    color: #615656;
+}
+ 
+/* Icon Backgrounds */
+
+
+/* Black Icons  */
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-1 {
+	background: url(images/icon-1.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-2 {
+	background: url(images/icon-2.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-3 {
+	background: url(images/icon-3.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-4 {
+	background: url(images/icon-4.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-5 {
+	background: url(images/icon-5.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-6 {
+	background: url(images/icon-6.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-7 {
+	background: url(images/icon-7.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-8 {
+	background: url(images/icon-8.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-9 {
+	background: url(images/icon-9.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-10 {
+	background: url(images/icon-10.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-11 {
+	background: url(images/icon-11.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-12 {
+	background: url(images/icon-12.png) center center no-repeat;
+}
+
+.aios-roadmaps.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-13 {
+	background: url(images/icon-13.png) center center no-repeat;
+}
+
+
+
+/* White Icons  */
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-1 {
+	background: url(images/icon-1-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-2 {
+	background: url(images/icon-2-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-3 {
+	background: url(images/icon-3-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-4 {
+	background: url(images/icon-4-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-5 {
+	background: url(images/icon-5-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-6 {
+	background: url(images/icon-6-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-7 {
+	background: url(images/icon-7-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-8 {
+	background: url(images/icon-8-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-9 {
+	background: url(images/icon-9-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-10 {
+	background: url(images/icon-10-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-11 {
+	background: url(images/icon-11-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-12 {
+	background: url(images/icon-12-white.png) center center no-repeat;
+}
+
+.aios-roadmaps.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-13 {
+	background: url(images/icon-13-white.png) center center no-repeat;
+}
+
+
+
+/* Version 2 No Border */
+.aios-roadmaps.no-border a.aios-roadmap-link {
+	display: inline-block;
+	vertical-align: top;
+	width: 16.66%;
+	height:auto;
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	text-decoration: none;
+	font: 400 14px/14px "Lato";
+	color: #464646;
+	padding: 1%;
+	margin: 6px 0px 6px 0px;
+	box-sizing:border-box;
+	min-width:100px;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+}
+	
+		.aios-roadmaps.no-border a.aios-roadmap-link span.aios-roadmap-icon {
+			width: 100%;
+			height: 48px;
+			display: inline-block;
+			margin-bottom: 8px;
+			transition: all .25s ease-in-out;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			font-size: 48px;
+		}
+		
+		.aios-roadmaps.no-border a.aios-roadmap-link span.aios-roadmap-name {
+			display: block;
+			padding: 8px 0;
+			text-transform: uppercase;
+			margin-top: 0;
+			font-size: 11px;
+			line-height:14px;
+		}
+
+/* Icon Backgrounds */
+
+
+/* Black Icons  */
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-1 {
+	background: url(images/icon-1-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-2 {
+	background: url(images/icon-2-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-3 {
+	background: url(images/icon-3-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-4 {
+	background: url(images/icon-4-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-5 {
+	background: url(images/icon-5-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-6 {
+	background: url(images/icon-6-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.black a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-7 {
+	background: url(images/icon-7-big.png) center center no-repeat;
+}
+
+
+
+/* White Icons  */
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-1 {
+	background: url(images/icon-1-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-2 {
+	background: url(images/icon-2-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-3 {
+	background: url(images/icon-3-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-4 {
+	background: url(images/icon-4-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-5 {
+	background: url(images/icon-5-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-6 {
+	background: url(images/icon-6-white-big.png) center center no-repeat;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link span.aios-roadmap-icon.ai-icon-7 {
+	background: url(images/icon-7-white-big.png) center center no-repeat;
+}
+
+
+
+/* Active Link */
+.aios-roadmaps.no-border.black a.aios-roadmap-link.active-link,
+.aios-roadmaps.no-border.black a.aios-roadmap-link:hover {
+    border: none;
+    color: #000;
+}
+
+.aios-roadmaps.no-border.white a.aios-roadmap-link.active-link,
+.aios-roadmaps.no-border.white a.aios-roadmap-link:hover {
+    border: none;
+    color: #fff;
+}
+
+.roadmap-table-responsive{
+	width: 100%
+}
+.roadmap-table-responsive td {
+	padding: 2px 7px;
+	text-align: left;
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 977px) { 
+	.aios-roadmaps {
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 600px) { 
+	.roadmap-table-responsive,
+	.roadmap-table-responsive tr,
+	.roadmap-table-responsive td,
+	.roadmap-table-responsive tbody{
+		display: block;
+		text-align: left;
+		width: 100%;
+	}
+}
